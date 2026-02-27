@@ -2,4 +2,4 @@
 
 scriptPath="`dirname \"$0\"`"
 
-python $scriptPath/update_shaderc_sources.py --dir $scriptPath/shaderc --file $scriptPath/known_good.json
+python3 $scriptPath/update_shaderc_sources.py --dir $scriptPath/shaderc --file $scriptPath/known_good.json
